@@ -18,7 +18,7 @@ Windows executable:   ```./binary/qc_tool.exe```
 
 * It can be run in  GUI  or command line modes
 
-* Additional win32 libraries can  be downloaded from  [qc_tool_libs.zip](https://www.onedrive/qc_tool_libraries_1234)  
+* Additional windows libraries can  be downloaded from  [qc_tool_libs.zip](https://www.onedrive/qc_tool_libraries_1234)  
 
   
 
@@ -145,7 +145,7 @@ Meshes can be parametrized and  deformed by selecting an appropriate item from t
   | Mapping of volumes/surfaces onto a ball/sphere      | Click ```MMB:Volume Parametrization > Stretch to ball ``` to map volumetric/ surface mesh to a ball.  To enter additional mapping parameters click ```MMB:Volume Parametrization > Stretch to ball custom ``` and ```MMB:Volume Parametrization > Stretch to ball from point```  and then enter these parameters in  the console window ( for details see the bibliography) | ![](./assets/brain2ball.jpg)     |
   | Mapping of volumes volumes/surfaces onto a cylinder | Click ```MMB:Volume Parametrization > Stretch to cylinder ``` and enter the power of the mapping into the console. Note that  these mappings are computed with respect to the origin ( for details see the bibliography) | ![](./assets/brain2cylinder.jpg) |
   | Quasi-conformal mapping of surfaces and volumes     | Click ```MMB:Volume Parametrization > Map by folding```,```Map by folding```, ```Map radial``` and press ``` '-'``` and ``` '+'``` to control the amount of the distortion. Additional deformations are computed by selecting items from the popup menu ```MMB:Zorich``` and ```MMB:conter power```. | ![](./assets/qc_maps.jpg)        |
-  | Affine transformations                              | Open GUI  ```Mouse Middle Button > Affine transformation``` to set translation, scale and rotation components of the mapping. Affine transformations can be applied to the boundary surface and to the interior volume, or to both of them. | ![](./assets/Affine.jpg)         |
+  | Affine transformations                              | Open GUI  ```Mouse Middle Button > Affine transformation``` to set translation, scale and rotation components of the mapping. Affine transformations can be applied to the boundary surface and to the interior volume, or to both of them. | ![](./assets/affine.jpg)         |
   | Noisy deformations                                  | Click ```MMB:Add noise``` and press ``` '-'``` and ``` '+'``` to control the noise amplitude | ![](./assets/grid_noise.jpg)     |
 
 ## Command line 
